@@ -1,0 +1,173 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: beige; */
+  z-index: 10;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.card {
+  height: 60vh;
+  width: 75vw;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card:hover img {
+  transform: scale(1.2);
+}
+.card-wraper {
+  padding: 0px 30px;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  display: flex;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.356);
+}
+.card-title {
+  font-family: "Piazzolla", serif;
+  color: #e0f2fe;
+  font-size: 25px;
+}
+.card-text {
+  color: #f0f9ff;
+  font-size: 15px;
+  padding: 5px 0px;
+}
+.card-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: transform 100ms;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.resp-button {
+  background-color: black;
+  color: white;
+
+  position: relative;
+  padding: 8px 0px;
+  width: 128px;
+  border-radius: 8px;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+section {
+  padding: 0px 20px;
+}
+.happy-img {
+  padding: 20px;
+}
+.chips {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.text {
+  padding-bottom: 10px;
+}
+.happy-img img {
+  height: 500px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.work-button {
+  background-color: black;
+  color: white;
+  border: solid 1px;
+  padding: 8px 0px;
+  width: 128px;
+  border-radius: 8px;
+}
+
+.chip {
+  color: black;
+  border: solid black;
+  border-radius: 25px;
+  padding: 4px 12px;
+}
+.contact-title {
+}
+.contact {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.TM {
+  width: 100%;
+  height: 70px;
+  margin-top: 30px;
+  padding: 0 42%;
+}
+.C {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.move-up {
+}
+@media only screen and (max-width: 925px) {
+  .move-up {
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .happy-img img {
+    height: 700px;
+  }
+}
